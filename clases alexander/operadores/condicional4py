@@ -1,0 +1,12 @@
+#Solicitar al usuario su nota
+
+nota = float(input("Introduce tu nota: "))
+
+if nota < 70:
+    print("Usted reprobó")
+
+else:
+    print("Aprobaste yeeii :D")
+
+
+

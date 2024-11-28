@@ -1,0 +1,13 @@
+# solicitar al usuario un numero
+
+numero = float(input("Introduce un numero: "))
+
+
+# condicionalres para verificar si es positivo, negativo o cero 
+
+if numero > 0:
+    print("El numero es positivo")
+elif numero < 0:
+    print("Numero es negativo")
+else:
+    print("El numero es cero")
